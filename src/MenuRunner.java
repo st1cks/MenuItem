@@ -12,8 +12,8 @@ public class MenuRunner {
         Trio trio2 = new Trio(bec, caeser, smoothie);
         Trio trio3 = new Trio(bec, caeser, icedTea);
 
-        System.out.println(trio1.getName() + "Price:" + trio1.getPrice());
-        System.out.println(trio2.getName() + "Price:" + trio2.getPrice());
-        System.out.println(trio3.getName() + "Price:" + trio3.getPrice());
+        System.out.println(trio1.getName() + " Price: " + trio1.getPrice());
+        System.out.println(trio2.getName() + " Price: " + trio2.getPrice());
+        System.out.println(trio3.getName() + " Price: " + trio3.getPrice());
     }
 }
